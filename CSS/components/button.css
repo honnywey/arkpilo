@@ -1,0 +1,25 @@
+.buttonX {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    row-gap: 6px;
+}
+
+.button {
+    display: inline-block;
+    background-color: #BF9D8A;
+    height: 30px;
+    line-height: 30px;
+    padding-left: 20px;
+    padding-right: 20px;
+    box-shadow: 3px 3px 3px rgba(0, 0, 0, 0.6);
+    border-radius: 5px;
+    margin-right: 0px;
+}
+
+.button:hover {
+    border-radius: 10px;
+    color: rgba(0, 0, 0, 0.5);
+    transform: scaleX(1.05)
+}

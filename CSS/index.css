@@ -13,8 +13,8 @@ header {
 nav {
     display: inline;
     text-align: center;
-    margin-right: 160px;
     margin-top: 20px;
+    margin-left: auto;
 }
 
 a {
@@ -40,42 +40,4 @@ a:before {
     width: 10px;
     height: 10px;
     margin-right: 10px;
-}
-
-#button1 {
-    display: inline-block;
-    background-color: #BF9D8A;
-    height: 30px;
-    line-height: 30px;
-    padding-left: 20px;
-    padding-right: 20px;
-    box-shadow: 3px 3px 3px rgba(0, 0, 0, 0.6);
-    border-radius: 5px;
-    margin-right: 0px;
-
-    position: absolute;
-    top: 7px;
-    right: 20px;
-}
-
-#button2 {
-    display: inline-block;
-    background-color: #BF9D8A;
-    height: 30px;
-    line-height: 30px;
-    padding-left: 20px;
-    padding-right: 20px;
-    box-shadow: 3px 3px 3px rgba(0, 0, 0, 0.6);
-    border-radius: 5px;
-    margin-right: 0px;
-
-    position: absolute;
-    top: 43px;
-    right: 20px;
-}
-
-#button1:hover, #button2:hover {
-    border-radius: 10px;
-    color: rgba(0, 0, 0, 0.5);
-    transform: scaleX(1.05)
 }
